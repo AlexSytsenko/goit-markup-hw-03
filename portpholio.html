@@ -16,7 +16,7 @@
           <ul class="site-nav">
             <li class="item"><a href="./index.html" class="link">Студия</a></li>
             <li class="item"><a href="./portpholio.html" class="link current">Портфолио</a></li>
-            <li class="item"><a href="" class="link">Контакты</a></li>
+            <li class="item"><a href="#contacts" class="link">Контакты</a></li>
           </ul>
         </nav>
         <address class="address-nav">
@@ -27,75 +27,153 @@
     </header>
     <main>
       <!--Portfolio-->
-      <section class="projects">
+      <section class="section projects">
         <!--Блок отбора-->
-        <ul class="selection">
-          <li>
-            <button type="button" class="button">Все</button>
-          </li>
-          <li>
-            <button type="button" class="button">Веб-сайты</button>
-          </li>
-          <li>
-            <button type="button" class="button">Приложения</button>
-          </li>
-          <li>
-            <button type="button" class="button">Дизайн</button>
-          </li>
-          <li>
-            <button type="button" class="button">Маркетинг</button>
-          </li>
-        </ul>
-        <ul class="our-projects">
-          <li>
-            <img src="./images/portpholio/project1.jpg" alt="Экран ноутбука" width="370" />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li>
-            <img src="./images/portpholio/project2.jpg" alt="Два баскедболиста" width="370" />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/portpholio/project3.jpg" alt="Логотип ресторана" width="370" />
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
-          </li>
-          <li>
-            <img src="./images/portpholio/project4.jpg" alt="Наушники" width="370" />
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <img src="./images/portpholio/project5.jpg" alt="Две коробки" width="370" />
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
-          </li>
-          <li>
-            <img src="./images/portpholio/project6.jpg" alt="Монитор" width="370" />
-            <h2 lang="en">Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li>
-            <img src="./images/portpholio/project7.jpg" alt="Книга" width="370" />
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/portpholio/project8.jpg" alt="Бирка" width="370" />
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <img src="./images/portpholio/project9.jpg" alt="Ноутбук" width="370" />
-            <h2 lang="en">Growing Business</h2>
-            <p>Приложение</p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="projects-selection-list flexbox">
+            <li class="projects-selection-item">
+              <button type="button" class="button">Все</button>
+            </li>
+            <li class="projects-selection-item">
+              <button type="button" class="button">Веб-сайты</button>
+            </li>
+            <li class="projects-selection-item">
+              <button type="button" class="button">Приложения</button>
+            </li>
+            <li class="projects-selection-item">
+              <button type="button" class="button">Дизайн</button>
+            </li>
+            <li class="projects-selection-item">
+              <button type="button" class="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="projects-list flexbox">
+            <li class="projects-item">
+              <a href="./">
+                <div>
+                  <img src="./images/portpholio/project1.jpg" alt="Экран ноутбука" width="370" />
+                </div>
+                <div class="projects-text-container">
+                  <h2 class="projects-title">Технокряк</h2>
+                  <p class="projecrs-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="./">
+                <div>
+                  <img src="./images/portpholio/project2.jpg" alt="Два баскедболиста" width="370" />
+                </div>
+                <div class="projects-text-container">
+                  <h2 class="projects-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="projecrs-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="./">
+                <div>
+                  <img src="./images/portpholio/project3.jpg" alt="Логотип ресторана" width="370" />
+                </div>
+                <div class="projects-text-container">
+                  <h2 class="projects-title">Ресторан Seafood</h2>
+                  <p class="projecrs-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="./">
+                <div>
+                  <img src="./images/portpholio/project4.jpg" alt="Наушники" width="370" />
+                </div>
+                <div class="projects-text-container">
+                  <h2 class="projects-title">Проект Prime</h2>
+                  <p class="projecrs-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="./">
+                <div>
+                  <img src="./images/portpholio/project5.jpg" alt="Две коробки" width="370" />
+                </div>
+                <div class="projects-text-container">
+                  <h2 class="projects-title">Проект Boxes</h2>
+                  <p class="projecrs-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="./">
+                <div>
+                  <img src="./images/portpholio/project6.jpg" alt="Монитор" width="370" />
+                </div>
+                <div class="projects-text-container">
+                  <h2 class="projects-title" lang="en">Inspiration has no Borders</h2>
+                  <p class="projecrs-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="./">
+                <div>
+                  <img src="./images/portpholio/project7.jpg" alt="Книга" width="370" />
+                </div>
+                <div class="projects-text-container">
+                  <h2 class="projects-title">Издание Limited Edition</h2>
+                  <p class="projecrs-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="./">
+                <div>
+                  <img src="./images/portpholio/project8.jpg" alt="Бирка" width="370" />
+                </div>
+                <div class="projects-text-container">
+                  <h2 class="projects-title">Проект LAB</h2>
+                  <p class="projecrs-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="./">
+                <div>
+                  <img src="./images/portpholio/project9.jpg" alt="Ноутбук" width="370" />
+                </div>
+                <div class="projects-text-container">
+                  <h2 class="projects-title" lang="en">Growing Business</h2>
+                  <p class="projecrs-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="./">
+                <div>
+                  <img src="./images/portpholio/project9.jpg" alt="Ноутбук" width="370" />
+                </div>
+                <div class="projects-text-container">
+                  <h2 class="projects-title" lang="en">Growing Business</h2>
+                  <p class="projecrs-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="./">
+                <div>
+                  <img src="./images/portpholio/project9.jpg" alt="Ноутбук" width="370" />
+                </div>
+                <div class="projects-text-container">
+                  <h2 class="projects-title" lang="en">Growing Business</h2>
+                  <p class="projecrs-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="container">
+    <footer class="container" id="contacts">
       <div class="footer-contacts">
         <a href="./index.html" lang="en" class="logo logo-down">Web<span class="logo-footer">Studio</span></a>
         <address class="address-footer">

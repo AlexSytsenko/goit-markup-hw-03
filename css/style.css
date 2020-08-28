@@ -304,7 +304,7 @@ footer {
 .footer-contacts {
   padding-top: 60px;
   padding-bottom: 60px;
-  max-width: 230px;
+  width: calc((100% - 30px * 3) / 4);
 }
 
 .logo-down {
@@ -340,30 +340,58 @@ footer {
 }
 
 /*Portfolio*/
-.selection .button {
+
+.projects-selection-list {
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.projects-selection-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.projects-selection-item .button {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  text-align: center;
   color: var(--text-color-black);
   background: var(--secondary-background);
+  border-radius: 4px;
+  border: transparent;
 }
 
-.selection .button:hover,
-.selection .button:focus {
+.projects-selection-list .button:hover,
+.projects-selection-list .button:focus {
   color: var(--white);
   background-color: var(--accent-link-color);
 }
 
-.our-projects h2 {
+.projects-item {
+  width: calc((100% - 30px * 2) / 3);
+}
+
+.projects-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.projects-text-container {
+  padding: 20px 24px;
+}
+
+.projects-title {
+  margin: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.our-projects p {
+.projecrs-text {
+  margin: 0;
+
   font-size: 16px;
   line-height: 1.87;
+  color: var(--text-color-gray);
 }
